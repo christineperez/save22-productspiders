@@ -12,6 +12,7 @@ class ExpansysComSgItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     url = Field()
+    hello = Field()
     title = Field()
     description = Field()
     retailer_sku_code = Field()
